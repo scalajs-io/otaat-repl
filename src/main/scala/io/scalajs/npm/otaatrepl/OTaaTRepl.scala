@@ -26,7 +26,7 @@ trait OTaaTRepl extends js.Object {
 object OTaaTRepl extends OTaaTRepl
 
 /**
-  * REPL Options
+  * OTaaTRepl Options
   * @param timeout         the deferred/promise timeout
   * @param prompt          the prompt and stream for all I/O. Defaults to > .
   * @param input           the readable stream to listen to. Defaults to process.stdin.

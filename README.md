@@ -53,7 +53,7 @@ $ sbt test
 ```scala
 import io.scalajs.npm.otaatrepl._
 
-val replServer = OtataREPL.start(new OtataREPLOptions(
+val replServer = OTaaTRepl.start(new OTaaTReplOptions(
   prompt = "amazing> "
 ))
 ```
