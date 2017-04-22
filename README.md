@@ -63,7 +63,7 @@ val replServer = OTaaTRepl.start(new OTaaTReplOptions(
 To add the `OTaaTRepl` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "otaat-repl" % "0.4.0-pre4"
+libraryDependencies += "io.scalajs.npm" %%% "otaat-repl" % "0.4.0-pre5"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
