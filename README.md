@@ -26,7 +26,7 @@ object that has a then() method that accepts a fulfillment callback and a reject
 
 ### Build Dependencies
 
-* [SBT v0.13.13](http://www.scala-sbt.org/download.html)
+* [SBT v0.13.16](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
 
@@ -63,7 +63,7 @@ val replServer = OTaaTRepl.start(new OTaaTReplOptions(
 To add the `OTaaTRepl` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "otaat-repl" % "0.4.0"
+libraryDependencies += "io.scalajs.npm" %%% "otaat-repl" % "0.4.1"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
