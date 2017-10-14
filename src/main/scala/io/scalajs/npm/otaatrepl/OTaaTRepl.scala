@@ -4,7 +4,7 @@ import io.scalajs.nodejs.repl.REPLServer
 import io.scalajs.nodejs.stream.{Readable, Writable}
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.{JSImport, ScalaJSDefined}
+import scala.scalajs.js.annotation.JSImport
 
 /**
   * otaat-repl - A node.js REPL that helps you do "One thing at a time"
@@ -54,7 +54,6 @@ object OTaaTRepl extends OTaaTRepl
   *                        </ul>
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
 class OTaaTReplOptions(var timeout: js.UndefOr[Int] = js.undefined,
                        var prompt: js.UndefOr[String] = js.undefined,
                        var input: js.UndefOr[Readable] = js.undefined,
